@@ -14,8 +14,12 @@ h2 {
   font-family: "Comic Sans MS", cursive, sans-serif;
 } 
 </style>
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+</script>
 
-<h1>SITE PRA DIZER O QUANTO TE ACHO INCRÍVEL E O QUANTO EU GOSTARIA DE VIVER MUITA COISA CONTIGO!</h1>
+<h1>SITE PRA DIZER O QUANTO TE ACHO INCRÍVEL HOJE <span id="datetime"></span>!</h1>
 <br>
 <ul>
   <li>31/12/2019 - deslizo e jogo</li>
